@@ -14,7 +14,7 @@ Este proyecto es una página web estática en HTML y CSS dedicada a compartir tr
 ## Contenido principal
 - `#inicio`: banner principal con el título y la propuesta de valor.
 - `#trucos`: listado de trucos para los juegos `GTA San Andreas`, `GTA V`, `Age of Empires II` y `The Sims 4`.
-- `#sobre-mi`: presentación personal de Iván y su motivación para crear la web.
+- `#sobre-mi`: presentación personal y su motivación para crear la web.
 - `#redes`: enlaces a Instagram y Discord.
 
 ## Características de diseño
@@ -37,15 +37,6 @@ Este proyecto es una página web estática en HTML y CSS dedicada a compartir tr
 2. Si usas GitHub Desktop, arrastra la carpeta `web nueva` al cliente y sigue los pasos para publicar.
 3. Si prefieres la línea de comandos y tienes Git instalado, usa estos comandos desde la carpeta del proyecto:
 
-```bash
-cd "c:\Users\Iván\Desktop\web nueva"
-git init
-git add .
-git commit -m "Primera versión del sitio GameCodes"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/NOMBRE_REPO.git
-git push -u origin main
-```
 
 4. Alternativamente, sube los archivos directamente desde la interfaz web de GitHub si no tienes Git instalado.
 
