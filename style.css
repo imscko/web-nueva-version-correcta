@@ -6,15 +6,20 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Hace que padding y border se incluyan en el ancho total */
+    box-sizing: border-box;
+    /* Hace que padding y border se incluyan en el ancho total */
 }
 
 /* Estilos del cuerpo de la página */
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Fuente principal */
-    background-color: #1a1a1a; /* Fondo negro oscuro */
-    color: #f0f0f0; /* Texto blanco claro */
-    line-height: 1.6; /* Espacio entre líneas para mejor lectura */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fuente principal */
+    background-color: #1a1a1a;
+    /* Fondo negro oscuro */
+    color: #f0f0f0;
+    /* Texto blanco claro */
+    line-height: 1.6;
+    /* Espacio entre líneas para mejor lectura */
 }
 
 /* ================================
@@ -22,34 +27,47 @@ body {
    ================================ */
 
 header {
-    background-color: #0d0d0d; /* Negro más oscuro que el fondo */
-    padding: 15px 30px; /* Espacio interno: arriba/abajo 15px, lados 30px */
-    display: flex; /* Flexbox para alinear logo y menú en fila */
-    justify-content: space-between; /* Logo a la izquierda, menú a la derecha */
-    align-items: center; /* Centrado vertical */
-    border-bottom: 3px solid #ff6600; /* Línea naranja abajo del header */
-    position: sticky; /* Se queda fijo al hacer scroll */
+    background-color: #0d0d0d;
+    /* Negro más oscuro que el fondo */
+    padding: 15px 30px;
+    /* Espacio interno: arriba/abajo 15px, lados 30px */
+    display: flex;
+    /* Flexbox para alinear logo y menú en fila */
+    justify-content: space-between;
+    /* Logo a la izquierda, menú a la derecha */
+    align-items: center;
+    /* Centrado vertical */
+    border-bottom: 3px solid #ff6600;
+    /* Línea naranja abajo del header */
+    position: sticky;
+    /* Se queda fijo al hacer scroll */
     top: 0;
-    z-index: 100; /* Se muestra sobre el resto del contenido */
+    z-index: 100;
+    /* Se muestra sobre el resto del contenido */
 }
 
 /* Logo: ícono + texto */
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espacio entre el ícono y el texto */
+    gap: 10px;
+    /* Espacio entre el ícono y el texto */
 }
 
 .logo-icon {
-    font-size: 28px; /* Tamaño del emoji */
+    font-size: 28px;
+    /* Tamaño del emoji */
 }
 
 .logo-texto {
     font-size: 24px;
     font-weight: bold;
-    color: #ff6600; /* Naranja Rockstar */
-    letter-spacing: 2px; /* Espacio entre letras */
-    text-transform: uppercase; /* Todo en mayúsculas */
+    color: #ff6600;
+    /* Naranja Rockstar */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    text-transform: uppercase;
+    /* Todo en mayúsculas */
 }
 
 /* ================================
@@ -57,26 +75,37 @@ header {
    ================================ */
 
 nav ul {
-    list-style: none; /* Quita las viñetas de la lista */
-    display: flex; /* Los elementos se colocan en fila horizontal */
-    gap: 25px; /* Espacio entre cada enlace */
+    list-style: none;
+    /* Quita las viñetas de la lista */
+    display: flex;
+    /* Los elementos se colocan en fila horizontal */
+    gap: 25px;
+    /* Espacio entre cada enlace */
 }
 
 nav ul li a {
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    color: #f0f0f0; /* Color del texto */
+    text-decoration: none;
+    /* Quita el subrayado de los enlaces */
+    color: #f0f0f0;
+    /* Color del texto */
     font-size: 16px;
     font-weight: bold;
-    text-transform: uppercase; /* Mayúsculas */
-    padding: 8px 15px; /* Espacio interno del enlace */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s, color 0.3s; /* Transición suave al pasar el mouse */
+    text-transform: uppercase;
+    /* Mayúsculas */
+    padding: 8px 15px;
+    /* Espacio interno del enlace */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transición suave al pasar el mouse */
 }
 
 /* Efecto hover: cuando el mouse pasa sobre un enlace */
 nav ul li a:hover {
-    background-color: #ff6600; /* Fondo naranja */
-    color: #0d0d0d; /* Texto negro */
+    background-color: #ff6600;
+    /* Fondo naranja */
+    color: #0d0d0d;
+    /* Texto negro */
 }
 
 /* ================================
@@ -84,10 +113,14 @@ nav ul li a:hover {
    ================================ */
 
 .banner {
-    background-color: #ff6600; /* Fondo naranja Rockstar */
-    color: #0d0d0d; /* Texto negro para contraste */
-    text-align: center; /* Texto centrado */
-    padding: 80px 20px; /* Espacio interno grande para que destaque */
+    background-color: #ff6600;
+    /* Fondo naranja Rockstar */
+    color: #0d0d0d;
+    /* Texto negro para contraste */
+    text-align: center;
+    /* Texto centrado */
+    padding: 80px 20px;
+    /* Espacio interno grande para que destaque */
 }
 
 .banner h1 {
@@ -99,8 +132,10 @@ nav ul li a:hover {
 
 .banner p {
     font-size: 18px;
-    max-width: 600px; /* Ancho máximo del párrafo */
-    margin: 0 auto; /* Centrado horizontal */
+    max-width: 600px;
+    /* Ancho máximo del párrafo */
+    margin: 0 auto;
+    /* Centrado horizontal */
 }
 
 /* ================================
@@ -108,13 +143,15 @@ nav ul li a:hover {
    ================================ */
 
 .trucos {
-    padding: 60px 30px; /* Espacio interno de la sección */
+    padding: 60px 30px;
+    /* Espacio interno de la sección */
 }
 
 .trucos h2 {
     text-align: center;
     font-size: 32px;
-    color: #ff6600; /* Naranja */
+    color: #ff6600;
+    /* Naranja */
     margin-bottom: 40px;
     text-transform: uppercase;
 }
@@ -122,61 +159,78 @@ nav ul li a:hover {
 /* Grid: organiza las tarjetas en columnas */
 .trucos-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual tamaño */
-    gap: 25px; /* Espacio entre tarjetas */
-    max-width: 900px; /* Ancho máximo de la cuadrícula */
-    margin: 0 auto; /* Centrado horizontal */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columnas de igual tamaño */
+    gap: 25px;
+    /* Espacio entre tarjetas */
+    max-width: 900px;
+    /* Ancho máximo de la cuadrícula */
+    margin: 0 auto;
+    /* Centrado horizontal */
 }
 
 /* Cada tarjeta de truco */
 .tarjeta-truco {
-    background-color: #252525; /* Fondo gris oscuro */
-    border: 2px solid #333; /* Borde gris */
-    border-radius: 10px; /* Bordes redondeados */
+    background-color: #252525;
+    /* Fondo gris oscuro */
+    border: 2px solid #333;
+    /* Borde gris */
+    border-radius: 10px;
+    /* Bordes redondeados */
     padding: 25px;
-    transition: border-color 0.3s, transform 0.3s; /* Transición suave */
+    transition: border-color 0.3s, transform 0.3s;
+    /* Transición suave */
 }
 
 /* Efecto hover en la tarjeta */
 .tarjeta-truco:hover {
-    border-color: #ff6600; /* Borde naranja al pasar mouse */
-    transform: translateY(-5px); /* Se eleva un poco */
+    border-color: #ff6600;
+    /* Borde naranja al pasar mouse */
+    transform: translateY(-5px);
+    /* Se eleva un poco */
 }
 
 .tarjeta-truco h3 {
-    color: #ff6600; /* Título naranja */
+    color: #ff6600;
+    /* Título naranja */
     font-size: 22px;
     margin-bottom: 5px;
 }
 
 /* Etiqueta de plataforma */
 .plataforma {
-    color: #888; /* Gris claro */
+    color: #888;
+    /* Gris claro */
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 15px;
-    border-bottom: 1px solid #333; /* Línea separadora */
+    border-bottom: 1px solid #333;
+    /* Línea separadora */
     padding-bottom: 10px;
 }
 
 /* Lista de trucos dentro de cada tarjeta */
 .lista-trucos {
-    list-style: none; /* Sin viñetas */
+    list-style: none;
+    /* Sin viñetas */
 }
 
 .lista-trucos li {
     padding: 6px 0;
     font-size: 14px;
-    border-bottom: 1px solid #2a2a2a; /* Línea sutil entre cada truco */
+    border-bottom: 1px solid #2a2a2a;
+    /* Línea sutil entre cada truco */
 }
 
 .lista-trucos li:last-child {
-    border-bottom: none; /* Quita la línea del último elemento */
+    border-bottom: none;
+    /* Quita la línea del último elemento */
 }
 
 .lista-trucos li strong {
-    color: #ff8533; /* Naranja claro para el nombre del truco */
+    color: #ff8533;
+    /* Naranja claro para el nombre del truco */
 }
 
 /* ================================
@@ -185,7 +239,8 @@ nav ul li a:hover {
 
 .sobre-mi {
     padding: 60px 30px;
-    background-color: #222; /* Fondo ligeramente diferente para separar secciones */
+    background-color: #222;
+    /* Fondo ligeramente diferente para separar secciones */
 }
 
 .sobre-mi h2 {
@@ -197,19 +252,39 @@ nav ul li a:hover {
 }
 
 .sobre-mi-contenido {
-    max-width: 700px; /* Ancho máximo para legibilidad */
+    max-width: 900px; /* Un poco más ancho para dar espacio a la imagen */
     margin: 0 auto; /* Centrado */
-    text-align: center;
+    display: flex; /* Texto e imagen lado a lado */
+    align-items: center; /* Centrado vertical */
+    gap: 40px; /* Espacio entre texto e imagen */
 }
 
-.sobre-mi-contenido p {
+/* Texto ocupa el espacio disponible */
+.sobre-mi-texto {
+    flex: 1; /* Ocupa todo el espacio restante */
+}
+
+.sobre-mi-texto p {
     margin-bottom: 15px;
     font-size: 16px;
     color: #ccc; /* Gris claro para el texto */
 }
 
+/* Imagen a la derecha */
+.sobre-mi-imagen {
+    flex-shrink: 0; /* No se achica */
+    width: 250px; /* Ancho fijo de la imagen */
+}
+
+.sobre-mi-imagen img {
+    width: 100%; /* Ocupa todo el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 3px solid #ff6600; /* Borde naranja */
+}
+
 .sobre-mi-contenido strong {
-    color: #ff6600; /* Palabras destacadas en naranja */
+    color: #ff6600;
+    /* Palabras destacadas en naranja */
 }
 
 /* ================================
@@ -238,7 +313,8 @@ nav ul li a:hover {
 /* Grid para las tarjetas de redes */
 .redes-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
     gap: 20px;
     max-width: 900px;
     margin: 0 auto;
@@ -247,14 +323,16 @@ nav ul li a:hover {
 /* Cada tarjeta de red social */
 .red-tarjeta {
     display: flex;
-    flex-direction: column; /* Contenido en columna vertical */
+    flex-direction: column;
+    /* Contenido en columna vertical */
     align-items: center;
     text-align: center;
     background-color: #252525;
     border: 2px solid #333;
     border-radius: 10px;
     padding: 25px 15px;
-    text-decoration: none; /* Sin subrayado porque es un enlace */
+    text-decoration: none;
+    /* Sin subrayado porque es un enlace */
     color: #f0f0f0;
     transition: border-color 0.3s, transform 0.3s;
 }
@@ -265,27 +343,33 @@ nav ul li a:hover {
 
 /* Colores específicos para cada red social al hacer hover */
 .youtube:hover {
-    border-color: #ff0000; /* Rojo YouTube */
+    border-color: #ff0000;
+    /* Rojo YouTube */
 }
 
 .instagram:hover {
-    border-color: #e1306c; /* Rosa Instagram */
+    border-color: #e1306c;
+    /* Rosa Instagram */
 }
 
 .tiktok:hover {
-    border-color: #00f2ea; /* Celeste TikTok */
+    border-color: #00f2ea;
+    /* Celeste TikTok */
 }
 
 .discord:hover {
-    border-color: #5865f2; /* Morado Discord */
+    border-color: #5865f2;
+    /* Morado Discord */
 }
 
 .twitter:hover {
-    border-color: #1da1f2; /* Azul Twitter */
+    border-color: #1da1f2;
+    /* Azul Twitter */
 }
 
 .twitch:hover {
-    border-color: #9146ff; /* Morado Twitch */
+    border-color: #9146ff;
+    /* Morado Twitch */
 }
 
 /* Ícono grande de cada red */
@@ -320,11 +404,14 @@ nav ul li a:hover {
    ================================ */
 
 footer {
-    background-color: #0d0d0d; /* Mismo color que el header */
+    background-color: #0d0d0d;
+    /* Mismo color que el header */
     text-align: center;
     padding: 25px;
-    border-top: 3px solid #ff6600; /* Línea naranja arriba del footer */
-    color: #777; /* Texto gris */
+    border-top: 3px solid #ff6600;
+    /* Línea naranja arriba del footer */
+    color: #777;
+    /* Texto gris */
     font-size: 14px;
 }
 
@@ -365,5 +452,15 @@ footer p {
     /* Redes en 2 columnas */
     .redes-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Sobre mí: imagen debajo del texto en móvil */
+    .sobre-mi-contenido {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-mi-imagen {
+        width: 200px; /* Más pequeña en móvil */
     }
 }
