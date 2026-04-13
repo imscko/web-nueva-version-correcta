@@ -252,34 +252,46 @@ nav ul li a:hover {
 }
 
 .sobre-mi-contenido {
-    max-width: 900px; /* Un poco más ancho para dar espacio a la imagen */
-    margin: 0 auto; /* Centrado */
-    display: flex; /* Texto e imagen lado a lado */
-    align-items: center; /* Centrado vertical */
-    gap: 40px; /* Espacio entre texto e imagen */
+    max-width: 900px;
+    /* Un poco más ancho para dar espacio a la imagen */
+    margin: 0 auto;
+    /* Centrado */
+    display: flex;
+    /* Texto e imagen lado a lado */
+    align-items: center;
+    /* Centrado vertical */
+    gap: 40px;
+    /* Espacio entre texto e imagen */
 }
 
 /* Texto ocupa el espacio disponible */
 .sobre-mi-texto {
-    flex: 1; /* Ocupa todo el espacio restante */
+    flex: 1;
+    /* Ocupa todo el espacio restante */
 }
 
 .sobre-mi-texto p {
     margin-bottom: 15px;
     font-size: 16px;
-    color: #ccc; /* Gris claro para el texto */
+    color: #ccc;
+    /* Gris claro para el texto */
 }
 
 /* Imagen a la derecha */
 .sobre-mi-imagen {
-    flex-shrink: 0; /* No se achica */
-    width: 250px; /* Ancho fijo de la imagen */
+    flex-shrink: 0;
+    /* No se achica */
+    width: 250px;
+    /* Ancho fijo de la imagen */
 }
 
 .sobre-mi-imagen img {
-    width: 100%; /* Ocupa todo el contenedor */
-    border-radius: 10px; /* Bordes redondeados */
-    border: 3px solid #ff6600; /* Borde naranja */
+    width: 100%;
+    /* Ocupa todo el contenedor */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    border: 3px solid #ff6600;
+    /* Borde naranja */
 }
 
 .sobre-mi-contenido strong {
@@ -461,6 +473,7 @@ footer p {
     }
 
     .sobre-mi-imagen {
-        width: 200px; /* Más pequeña en móvil */
+        width: 200px;
+        /* Más pequeña en móvil */
     }
 }
